@@ -3,7 +3,8 @@
 
 ### To Reproduce
 
-1、Deploy via vercel
+- 1、Don't Comment out the POST handle function of the app/api/nav/route.ts file
+- 2、Deploy via vercel that use default selection is nextjs framework
 
 ### Additional context
 
