@@ -1,7 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
 import { NextResponse } from "next/server";
-export const runtime = "edge";
 export async function GET(request: Request) {
   const test = [];
   for (const name of await fs.readdir(
