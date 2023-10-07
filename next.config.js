@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: { outputFileTracing: true },
+  target: "serverless",
+  experimental: { nftTracing: true },
 };
 
 module.exports = nextConfig
