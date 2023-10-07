@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "app/api/nav/route.ts": {
+      "includeFiles": "app/blog/**/page.tsx"
+    }
+  }
+}
