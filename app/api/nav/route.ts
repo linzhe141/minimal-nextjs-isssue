@@ -21,6 +21,6 @@ export async function GET(request: Request) {
   return NextResponse.json(result);
 }
 
-export async function POST(request: Request) {
-  return NextResponse.json({ data: true });
-}
+// export async function POST(request: Request) {
+//   return NextResponse.json({ data: true });
+// }
