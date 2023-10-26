@@ -1,12 +1,17 @@
 import fs from "fs/promises";
 import path from "path";
 import { NextResponse } from "next/server";
-export const dynamic = "force-dynamic";
+// export const dynamic = "force-dynamic";
 export async function GET(request: Request) {
   const test = [];
+  console.log(
+    "zzzzzz",
+    path.resolve(process.cwd(), "app/blog/data_structure/tree")
+  );
   for (const name of await fs.readdir(
     path.resolve(process.cwd(), "app/blog/data_structure/tree")
   )) {
+    console.log("name", name);
     test.push(name);
   }
   const result = {
